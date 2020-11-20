@@ -6,7 +6,7 @@ Live Website URL:
 Progressions
 - Project Folder Structure
 - Annotating ReadMe.md Files with GitHub Markdown
-- Text Data, <a href="">CLick Here</a>
+- Text Data, <a href="">Click Here</a>
 
 ---
 ## Text Data
