@@ -1,66 +1,67 @@
+<!Hyperlinks
+Included in any tag but meant for anchor element: a
+Image links are also self-closing elements
+Image examples have two sources.
+These are the basic image hyperlinks. See next lesson for more.
+
+Make this in to Canadian example or QEHS Example.>
+
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
   <head>
-
-    <!-- Used by kewboard -->
-    <meta charset="utf-8">
-
-    <title>Child Template Webpage</title>
-
-    <!-- Used by Browser or Google Search-->
-    <meta name="author" content="Jessica Huang">
-    <meta name="description" content="Learning HTML by building a simple Website">
-    <meta name="keywords" content="boilerplate, starter code, HTML, learning">
-    <meta name="viewport" content="width=device-width, intial-scale=1.0">
-    <!-- Content give value for name or http-equiv attribute, text entry in string or array string -->
-
-    <!-- meta http-equiv="default-style" content=""--> <!-- content matches css link exactly-->
-
-    <!-- Other meta attributes to be aware of -->
-
-    <!-- meta http-equiv="refresh" content="30"-->
-    <!-- Content forces a Internet Request to refresh webpage every "time value in seconds" -->
-    <!-- Use this when refreshes are needed -->
-
-    <!-- meta http-equiv="content-type" content="text/html; charset=UTF-8" -->
-    <!-- Already specified in the charset above-->
+    <title>Hyperlinks</title>
   </head>
+
   <body>
-    <header><h1>Header Title</h1></header>
-    <nav><h1>Navigation</h1></nav>
-    <aside><p>This is the aside space.</p></aside>
-    <section>
-      <h3>Section 1</h3>
-      <article>
-        <p>This is article 1 in section 1.</p>
-      </article>
-      <article>
-        <p>This is article 2 in section 1.</p>
-      </article>
-    </section>
-    <section>
-      <h3>Section 2</h3>
-      <article>
-        <p>This is article 1 in section 2.</p>
-      </article>
-      <article>
-        <p>This is article 2 in section 2.</p>
-      </article>
-    </section>
+    <h1>Basic Anchor Element</h1>
+    <a href="https://en.wikipedia.org/wiki/Hedgehog">Learn More</a>
+      <br>
+      <p>Will open in the same window, need browser and nav buttons.</p>
+
+    <h1>Anchor Element with an image inside it.</h1>
+    <p>Notice, the anchor element is about the clicking,<br>
+    to the same page, opened in a new page.<br>
+    This changes the navigation properties.</p>
+    <p>The hyperlink for the image is online, thus link might break,</p>
+    <a href="#" target="_blank">
+    <img src="https://vetmed.illinois.edu/wp-content/uploads/2017/12/pc-keller-hedgehog.jpg" /></a>
+
+    <p>This image is not "clickable" and come from a folder.<br>
+    The hyperlink to the image will not break unless transferred to a new computer.<br>
+    Called an absolute path.</p>
+    <image src="C:\Users\Jessica Huang\Documents\GitHub\LearningHTML.github.io\childPages\Hyperlinks & Images-Intro\pc-keller-hedgehog.jpg" /></a>
+
+    <p>This image is not "clickable", comes from a folder, and looks exactly like the previous.<br>
+    But the source link is different. Inspect both.<br>
+    What is different? What do you think the code is doing?<br>
+    This hyperlink will not break when tranfered to a new computer.<br>
+    Called a relative path.</p>
+    <img src="pc-keller-hedgehog.jpg" /></a>
+
   </body>
-
-  <footer>
-    <blockquote cite="https://www.goodreads.com/quotes/2534-we-accept-the-love-we-think-we-deserve#:~:text=Quote%20by%20Stephen%20Chbosky%3A%20%E2%80%9CWe,love%20we%20think%20we%20deserve.%E2%80%9D">
-      <!-- Date Accessed 20201120-->
-    </blockquote>
-    <p>
-      <strong>"We accept the love we think we deserve."</strong>
-      <em><a href="https://www.goodreads.com/quotes/2534-we-accept-the-love-we-think-we-deserve#:~:text=Quote%20by%20Stephen%20Chbosky%3A%20%E2%80%9CWe,love%20we%20think%20we%20deserve.%E2%80%9D" target="_blank">
-         - Stephen Chbosky</a>
-       </em>
-     </p>
-     <p>&copy Jessica Huang, powered by jessiiicaaa in Github</p>
-
-  </footer>
-
 </html>
+
+<!Showing hyperlinks for these (will need some organization)
+Rightclick for
+- hyperlink address
+- image address
+>
+
+<!Having everything in one file illustrates need for file organization and naming, or using the search bar.
+- Code looks in the immediate folder for other documents for the correct name.
+- Similar to processing>
+
+<!Other notes
+Why keep users on page by opening other page?
+- Readability & Navigation
+- Other reasons: It keeps visitors on your site longer and
+  improves most of your metrics: bounce rate, conversion, pages visited.
+
+See: http://html.com/attributes/a-target/>
+
+<!Other Targets possible
+(from html.com/attributes/a-target)
+•	hreflang: specifies language of linked resource
+•	download: instead of opening it in a window, download the resource
+•	title: defines the title of a link, which appears to the user as a tooltip
+>
